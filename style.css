@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ramaraja', serif;
+}
+
+.main-container{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 5%;
+    width: 360px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: rgb(30, 204, 210);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.signup-container{
+    border: 1px solid black;
+    min-height: 50%;
+    width: 360px;
+    background-color: rgb(255, 114, 90);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.firstname-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.lastname-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.email-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.country-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.zipcode-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.password-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+button {
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+input {
+    font-size: 1.3rem;
+    height: 1.5rem;
+}
+
+
+
