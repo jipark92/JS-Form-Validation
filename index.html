@@ -19,19 +19,19 @@
             </div>
             <div class="firstname-container">
                 <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" class="first-name" >
+                <input type="text" name="firstname" class="first-name"minlength="1" required>
             </div>
             <div class="lastname-container">
                 <label for="lastname">Last Name:</label>
-                <input type="text" name="lastname" class="last-name">
+                <input type="text" name="lastname" class="last-name" minlength="1" required>
             </div>
             <div class="email-container">
                 <label for="email">Email:</label>
-                <input type="email" name="email" class="email" placeholder="example@ gmail.com" >
+                <input type="email" name="email" class="email" placeholder="example@ gmail.com" required>
             </div>
             <div class="country-container">
                 <label for="country">Country:</label>
-                <select name="country" class="country" >
+                <select name="country" class="country" required>
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Albania">Albania</option>
                     <option value="Algeria">Algeria</option>
@@ -279,11 +279,11 @@
             </div>
             <div class="password-container">
                 <label for="password">Password:</label>
-                <input type="password" name="password" class="password" >
+                <input type="password" name="password" class="password" minlength="8" required>
             </div>
             <div class="password-container">
                 <label for="confirmpassword">Confirm:</label>
-                <input type="password" name="confirmpassword" class="confirm-password" >
+                <input type="password" name="confirmpassword" class="confirm-password" minlength="8" required>
             </div>
             <div class="submit-container">
                 <button type ="submit" class="submit-btn">Sign Up</button>
